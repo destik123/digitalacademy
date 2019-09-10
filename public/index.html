@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Academy</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Roboto Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    
+</head>
+<body>
+    <section>
+        <div class="container">
+            <form class="contact_form" id="form" action="https://digital-spectr.com/ac/academy.php" method="POST">
+                <ul>
+                    <li>
+                        <h2>Задать вопрос</h2>
+                    </li>
+
+
+
+                    <!-- HTML5 Validation -->
+                    <!-- <li class="contact_form__input">
+                        <input type="text" name="name" placeholder="Фамилия Имя Отчество *" required pattern="[А-ЯЁa-яe -]+">
+                    </li>
+                    <li class="contact_form__input">
+                        <input type="tel" name="phone" placeholder="Телефон *" required pattern="[- +0-9]+">
+                    </li>
+                    <li class="contact_form__input">
+                        <input type="email" name="email" placeholder="Email">
+                    </li>
+                    <li class="contact_form__btn">
+                        <input type="submit" value="Отправить запрос">
+                    </li> -->
+
+
+
+                    <!-- JS Validation -->
+                    <li class="contact_form__input">
+                        <input type="text" name="name" id="name" placeholder="Фамилия Имя Отчество *">
+                    </li>
+                    <li class="contact_form__input">
+                        <input type="text" name="phone" id="phone" placeholder="Телефон *">
+                    </li>
+                    <li class="contact_form__input">
+                        <input type="text" name="email" id="email" placeholder="Email">
+                    </li>
+                    <li class="contact_form__btn">
+                        <input type="submit" id="submit" value="Отправить запрос">
+                    </li>
+                </ul>
+            </form>
+            <div class="status"></div>
+        </div>
+    </section>   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script/main.js"></script> 
+</body>
+</html>

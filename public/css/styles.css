@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background: #fff;
+  font-family: 'Roboto', 'sans-serif';
+  font-style: normal;
+  font-weight: normal; }
+
+.container {
+  width: 1024px;
+  padding: 0 15px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.contact_form {
+  width: 481px;
+  margin-top: 31px;
+  border-radius: 12px;
+  background: #F7F5F9;
+  padding: 40px;
+  -webkit-box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.25); }
+  .contact_form h2 {
+    display: inline;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 20px;
+    color: #3B3D43; }
+  .contact_form ul {
+    list-style-type: none;
+    list-style-position: outside;
+    margin: 0; }
+  .contact_form__input {
+    margin: 25px 0; }
+    .contact_form__input input {
+      display: flex;
+      width: 100%;
+      padding: 14px 35.12px 14px 15px;
+      border: none;
+      border-radius: 6px;
+      font-size: 15px;
+      line-height: 20px; }
+      .contact_form__input input:-moz-placeholder {
+        color: #D0C9D6; }
+      .contact_form__input input::-webkit-input-placeholder {
+        color: #D0C9D6; }
+      .contact_form__input input:focus, .contact_form__input input:hover {
+        outline: none; }
+      .contact_form__input input:hover {
+        box-shadow: 0 0 0 2px #8461C9; }
+      .contact_form__input input:focus {
+        box-shadow: 0 0 0 2px #CDBAFA; }
+  .contact_form__btn {
+    display: flex;
+    justify-content: center; }
+    .contact_form__btn input {
+      width: 100%;
+      padding: 13px 116px;
+      background: #6979F8;
+      border: none;
+      border-radius: 6px;
+      font-size: 17px;
+      line-height: 22px;
+      color: #FFFFFF;
+      text-transform: uppercase; }
+      .contact_form__btn input:focus, .contact_form__btn input:hover {
+        outline: none; }
+      .contact_form__btn input:hover {
+        box-shadow: 0 0 0 2px #8461C9; }
+      .contact_form__btn input:focus {
+        box-shadow: 0 0 0 2px #CDBAFA; }
+
+.status {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center; }
