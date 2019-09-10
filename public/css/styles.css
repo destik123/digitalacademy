@@ -34,7 +34,6 @@ body {
     color: #3B3D43; }
   .contact_form ul {
     list-style-type: none;
-    list-style-position: outside;
     margin: 0; }
   .contact_form__input {
     margin: 25px 0; }
